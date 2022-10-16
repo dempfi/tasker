@@ -7,19 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		741B4B5828B0181E00057B55 /* TaskerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B4B5728B0181E00057B55 /* TaskerApp.swift */; };
-		741B4B5A28B0181E00057B55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B4B5928B0181E00057B55 /* ContentView.swift */; };
+		741A4C0128B0677D00050603 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741A4C0028B0677D00050603 /* LoginView.swift */; };
+		741B4B5828B0181E00057B55 /* Tasker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B4B5728B0181E00057B55 /* Tasker.swift */; };
+		741B4B5A28B0181E00057B55 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B4B5928B0181E00057B55 /* MainView.swift */; };
 		741B4B5C28B0182000057B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741B4B5B28B0182000057B55 /* Assets.xcassets */; };
 		741B4B5F28B0182000057B55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741B4B5E28B0182000057B55 /* Preview Assets.xcassets */; };
+		741B4B6728B01A7900057B55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B4B6628B01A7900057B55 /* AppDelegate.swift */; };
+		74486B1728B0DD6100A8F289 /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74486B1628B0DD6100A8F289 /* UserDefaults+Extensions.swift */; };
+		74486B1B28B12A0B00A8F289 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 74486B1A28B12A0B00A8F289 /* Networking */; };
+		74486B1D28B12A3000A8F289 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74486B1C28B12A3000A8F289 /* API.swift */; };
+		74486B2028B158F500A8F289 /* JSON in Frameworks */ = {isa = PBXBuildFile; productRef = 74486B1F28B158F500A8F289 /* JSON */; };
+		74486B2228B1597200A8F289 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74486B2128B1597200A8F289 /* Database.swift */; };
+		74486B2428B198E800A8F289 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74486B2328B198E800A8F289 /* Entry.swift */; };
+		74486B2628B19DAF00A8F289 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74486B2528B19DAF00A8F289 /* TasksView.swift */; };
+		74486B2828B1A04F00A8F289 /* AsyncView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74486B2728B1A04F00A8F289 /* AsyncView.swift */; };
+		74486B2A28B1A3F400A8F289 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74486B2928B1A3F400A8F289 /* EntryView.swift */; };
+		745DF0D928C22C7100F8864C /* demlib in Frameworks */ = {isa = PBXBuildFile; productRef = 745DF0D828C22C7100F8864C /* demlib */; };
+		745DF0DC28C2418800F8864C /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 745DF0DB28C2418800F8864C /* SDWebImageSwiftUI */; };
+		7473ACCF28C24A0400F8E90C /* PillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473ACCE28C24A0400F8E90C /* PillView.swift */; };
+		74BAA0FB28B1FA2E008C7627 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BAA0FA28B1FA2E008C7627 /* HeaderView.swift */; };
+		74C4F7B628C29802008266AD /* DatabaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C4F7B528C29802008266AD /* DatabaseView.swift */; };
+		74C4F7B828C29CC6008266AD /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C4F7B728C29CC6008266AD /* Array+Extensions.swift */; };
+		74E7A17D28C1E5FE00515B72 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E7A17C28C1E5FE00515B72 /* Property.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		741A4C0028B0677D00050603 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		741B4B5428B0181E00057B55 /* Tasker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		741B4B5728B0181E00057B55 /* TaskerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskerApp.swift; sourceTree = "<group>"; };
-		741B4B5928B0181E00057B55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		741B4B5728B0181E00057B55 /* Tasker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasker.swift; sourceTree = "<group>"; };
+		741B4B5928B0181E00057B55 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		741B4B5B28B0182000057B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		741B4B5E28B0182000057B55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		741B4B6028B0182000057B55 /* Tasker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tasker.entitlements; sourceTree = "<group>"; };
+		741B4B6628B01A7900057B55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74486B1228B0D08500A8F289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		74486B1628B0DD6100A8F289 /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
+		74486B1C28B12A3000A8F289 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		74486B2128B1597200A8F289 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		74486B2328B198E800A8F289 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		74486B2528B19DAF00A8F289 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		74486B2728B1A04F00A8F289 /* AsyncView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncView.swift; sourceTree = "<group>"; };
+		74486B2928B1A3F400A8F289 /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+		7473ACCE28C24A0400F8E90C /* PillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillView.swift; sourceTree = "<group>"; };
+		74BAA0FA28B1FA2E008C7627 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		74C4F7B528C29802008266AD /* DatabaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseView.swift; sourceTree = "<group>"; };
+		74C4F7B728C29CC6008266AD /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		74E7A17C28C1E5FE00515B72 /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +60,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				745DF0DC28C2418800F8864C /* SDWebImageSwiftUI in Frameworks */,
+				74486B2028B158F500A8F289 /* JSON in Frameworks */,
+				745DF0D928C22C7100F8864C /* demlib in Frameworks */,
+				74486B1B28B12A0B00A8F289 /* Networking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,10 +89,15 @@
 		741B4B5628B0181E00057B55 /* Tasker */ = {
 			isa = PBXGroup;
 			children = (
-				741B4B5728B0181E00057B55 /* TaskerApp.swift */,
-				741B4B5928B0181E00057B55 /* ContentView.swift */,
-				741B4B5B28B0182000057B55 /* Assets.xcassets */,
+				741B4B5728B0181E00057B55 /* Tasker.swift */,
+				741B4B6628B01A7900057B55 /* AppDelegate.swift */,
+				74486B1628B0DD6100A8F289 /* UserDefaults+Extensions.swift */,
+				74C4F7B728C29CC6008266AD /* Array+Extensions.swift */,
+				74486B1828B0E26000A8F289 /* data */,
+				74486B1328B0DBAA00A8F289 /* view */,
 				741B4B6028B0182000057B55 /* Tasker.entitlements */,
+				74486B1228B0D08500A8F289 /* Info.plist */,
+				741B4B5B28B0182000057B55 /* Assets.xcassets */,
 				741B4B5D28B0182000057B55 /* Preview Content */,
 			);
 			path = Tasker;
@@ -67,6 +109,32 @@
 				741B4B5E28B0182000057B55 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74486B1328B0DBAA00A8F289 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				741A4C0028B0677D00050603 /* LoginView.swift */,
+				741B4B5928B0181E00057B55 /* MainView.swift */,
+				74486B2528B19DAF00A8F289 /* TasksView.swift */,
+				74BAA0FA28B1FA2E008C7627 /* HeaderView.swift */,
+				74C4F7B528C29802008266AD /* DatabaseView.swift */,
+				74486B2728B1A04F00A8F289 /* AsyncView.swift */,
+				74486B2928B1A3F400A8F289 /* EntryView.swift */,
+				7473ACCE28C24A0400F8E90C /* PillView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		74486B1828B0E26000A8F289 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				74486B2128B1597200A8F289 /* Database.swift */,
+				74E7A17C28C1E5FE00515B72 /* Property.swift */,
+				74486B2328B198E800A8F289 /* Entry.swift */,
+				74486B1C28B12A3000A8F289 /* API.swift */,
+			);
+			path = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +153,12 @@
 			dependencies = (
 			);
 			name = Tasker;
+			packageProductDependencies = (
+				74486B1A28B12A0B00A8F289 /* Networking */,
+				74486B1F28B158F500A8F289 /* JSON */,
+				745DF0D828C22C7100F8864C /* demlib */,
+				745DF0DB28C2418800F8864C /* SDWebImageSwiftUI */,
+			);
 			productName = Tasker;
 			productReference = 741B4B5428B0181E00057B55 /* Tasker.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +187,12 @@
 				Base,
 			);
 			mainGroup = 741B4B4B28B0181E00057B55;
+			packageReferences = (
+				74486B1928B12A0B00A8F289 /* XCRemoteSwiftPackageReference "Networking" */,
+				74486B1E28B158F500A8F289 /* XCRemoteSwiftPackageReference "JSON" */,
+				745DF0D728C22C7100F8864C /* XCRemoteSwiftPackageReference "demlib" */,
+				745DF0DA28C2418800F8864C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 741B4B5528B0181E00057B55 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +219,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				741B4B5A28B0181E00057B55 /* ContentView.swift in Sources */,
-				741B4B5828B0181E00057B55 /* TaskerApp.swift in Sources */,
+				741B4B6728B01A7900057B55 /* AppDelegate.swift in Sources */,
+				74486B2628B19DAF00A8F289 /* TasksView.swift in Sources */,
+				74486B2228B1597200A8F289 /* Database.swift in Sources */,
+				741B4B5A28B0181E00057B55 /* MainView.swift in Sources */,
+				741B4B5828B0181E00057B55 /* Tasker.swift in Sources */,
+				74486B2428B198E800A8F289 /* Entry.swift in Sources */,
+				74E7A17D28C1E5FE00515B72 /* Property.swift in Sources */,
+				74486B1728B0DD6100A8F289 /* UserDefaults+Extensions.swift in Sources */,
+				74BAA0FB28B1FA2E008C7627 /* HeaderView.swift in Sources */,
+				741A4C0128B0677D00050603 /* LoginView.swift in Sources */,
+				74486B1D28B12A3000A8F289 /* API.swift in Sources */,
+				74C4F7B828C29CC6008266AD /* Array+Extensions.swift in Sources */,
+				7473ACCF28C24A0400F8E90C /* PillView.swift in Sources */,
+				74486B2828B1A04F00A8F289 /* AsyncView.swift in Sources */,
+				74C4F7B628C29802008266AD /* DatabaseView.swift in Sources */,
+				74486B2A28B1A3F400A8F289 /* EntryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +368,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tasker/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +396,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tasker/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -336,6 +432,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		74486B1928B12A0B00A8F289 /* XCRemoteSwiftPackageReference "Networking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/freshOS/Networking";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		74486B1E28B158F500A8F289 /* XCRemoteSwiftPackageReference "JSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/skelpo/JSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		745DF0D728C22C7100F8864C /* XCRemoteSwiftPackageReference "demlib" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dempfi/demlib";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		745DF0DA28C2418800F8864C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		74486B1A28B12A0B00A8F289 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74486B1928B12A0B00A8F289 /* XCRemoteSwiftPackageReference "Networking" */;
+			productName = Networking;
+		};
+		74486B1F28B158F500A8F289 /* JSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74486B1E28B158F500A8F289 /* XCRemoteSwiftPackageReference "JSON" */;
+			productName = JSON;
+		};
+		745DF0D828C22C7100F8864C /* demlib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 745DF0D728C22C7100F8864C /* XCRemoteSwiftPackageReference "demlib" */;
+			productName = demlib;
+		};
+		745DF0DB28C2418800F8864C /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 745DF0DA28C2418800F8864C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 741B4B4C28B0181E00057B55 /* Project object */;
 }

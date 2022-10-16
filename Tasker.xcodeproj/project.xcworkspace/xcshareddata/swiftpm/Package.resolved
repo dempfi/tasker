@@ -1,0 +1,50 @@
+{
+  "pins" : [
+    {
+      "identity" : "demlib",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dempfi/demlib",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b721b09d4d96576f4ad79906c745a8cd58110187"
+      }
+    },
+    {
+      "identity" : "json",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/skelpo/JSON",
+      "state" : {
+        "revision" : "2673a405aaab323678a8fd118492b393ae45cebd",
+        "version" : "1.1.4"
+      }
+    },
+    {
+      "identity" : "networking",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/freshOS/Networking",
+      "state" : {
+        "revision" : "d4c9298a71a4ef66683da8cf21d700482c7f284b",
+        "version" : "1.2.1"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "3e48cb68d8e668d146dc59c73fb98cb628616236",
+        "version" : "5.13.2"
+      }
+    },
+    {
+      "identity" : "sdwebimageswiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImageSwiftUI",
+      "state" : {
+        "revision" : "cd8625b7cf11a97698e180d28bb7d5d357196678",
+        "version" : "2.0.2"
+      }
+    }
+  ],
+  "version" : 2
+}
